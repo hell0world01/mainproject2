@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+body{
+    background-color: antiquewhite;
+}
+.nav-link{
+    color: black;
+}
+.D01{
+    height: 100vh;
+}
+.navbar-toggler{
+    color: antiquewhite;
+}
+@media screen and (max-width:576px) {
+    .nav-brand{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
